@@ -1,10 +1,15 @@
+*{
+  box-sizing: border-box;
+}
 body {
   font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
   font-size: 18px;
   line-height: 1.8;
   letter-spacing: .8px;
   color: #fff;
-  background-color: #797979;
+  height: 100vh;
+  margin: 0;
+  background: url(portfolio\img\tokyoyakeiIMGL31731929.jpg.webp) #797979 left top no-repeat;
 }
 
 a {
@@ -59,13 +64,43 @@ li {
  見出し
 ---------------------------------*/
 .title {
-  font-size: 34px;
+  font-size: 55px;
   font-weight: bold;
   line-height: 1;
   margin-bottom: 40px;
   text-align: center;
   letter-spacing: .05em;
-  color: #333;
+  color: rgb(158, 189, 218);
+}
+.title{
+  animation: poyo 1.5s infinite;
+  opacity: 1;
+}
+@keyframes poyo {
+  0%, 40% {
+    transform: skew(0deg, 0deg);
+  }
+  5% {
+    transform: skew(5deg, 5deg);
+  }
+  10% {
+    transform: skew(-4deg, -4deg);
+  }
+  15% {
+    transform: skew(3deg, 3deg);
+  }
+  20% {
+    transform: skew(-2deg, -2deg);
+  }
+  25% {
+    transform: skew(1deg, 1deg);
+  }
+  30% {
+    transform: skew(-0.6deg, -0.6deg);
+  }
+  35% {
+    transform: skew(0.3deg, 0.3deg);
+  }
 }
 
 .lead {
@@ -160,6 +195,7 @@ li {
   line-height: 1.2;
   margin-bottom: 5px;
   letter-spacing: .1em;
+  
 }
 .main-visual-subtitle {
   font-size: 20px;
@@ -182,8 +218,8 @@ li {
   border-radius: 50%;
   -webkit-transform: translate(-50%, -50%);
 	transform: translate(0%, 0%);
-  -webkit-transition: .4s ease-in-out;
-	transition: .4s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+	transition: 2s ease-in-out;
 }
 .img-test-1 {
   opacity: 0;
@@ -254,6 +290,7 @@ li {
   text-decoration: none;
   font-weight: bold;
   border: 2px solid #9ec34b;
+  border-radius: 15%;
   position: relative;
   overflow: hidden;
   z-index: 1;
