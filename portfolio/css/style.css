@@ -3,13 +3,11 @@
 }
 body {
   font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.8;
   letter-spacing: .8px;
   color: #fff;
-  height: 100vh;
-  margin: 0;
-  background: url(portfolio\img\tokyoyakeiIMGL31731929.jpg.webp) #797979 left top no-repeat;
+  background: url(../img/texture201029AB_82.jpg.webp) #797979 center top ;
 }
 
 a {
@@ -71,6 +69,7 @@ li {
   text-align: center;
   letter-spacing: .05em;
   color: rgb(158, 189, 218);
+  -webkit-text-stroke: 3px rgb(120, 194, 130);
 }
 .title{
   animation: poyo 1.5s infinite;
@@ -113,7 +112,7 @@ li {
 .header {
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
   background-color: #fff;
   box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
@@ -195,7 +194,7 @@ li {
   line-height: 1.2;
   margin-bottom: 5px;
   letter-spacing: .1em;
-  
+  -webkit-text-stroke: 2px rgb(120, 243, 227);
 }
 .main-visual-subtitle {
   font-size: 20px;
@@ -224,7 +223,7 @@ li {
 .img-test-1 {
   opacity: 0;
   border-radius: 150%;
-  height: 14em;
+  height: 12em;
   position: absolute;
 }
 .main-visual-img:hover img:nth-of-type(1) {
