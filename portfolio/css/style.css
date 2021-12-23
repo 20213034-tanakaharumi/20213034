@@ -176,10 +176,7 @@ li {
 /*--------------------------------
  メインビジュアル
 ---------------------------------*/
-.logo_img{
-  width: 25em;
-  text-align: right;
-}
+
 
 .main-visual {
   display: flex;
@@ -188,7 +185,9 @@ li {
   height: 85vh;
   text-align: center;
 }
-
+.logo_img{
+  width: 15em;
+}
 .main-visual-inner {
   padding: 0 40px;
 }
