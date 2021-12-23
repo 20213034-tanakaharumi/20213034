@@ -11,6 +11,8 @@
 body {
   margin: 0;
   padding: 40px;
+  background: url(wood.jpg)rgb(37, 18, 3) repeat;
+  text-align: center;
 }
 .wrapper {
   background: #f9f8ee;
@@ -24,10 +26,20 @@ body {
 header
 ----------------------------*/
 header { margin-bottom: 60px; }
-h1 { margin-bottom: 20px; }
-ul { background: #fff; }
+h1 { 
+  margin-bottom: 20px; 
+}
+ul { 
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  background: #fff; 
+}
+li{
+  flex: 1 1 20%;
+}
 a {
-  display: block;
+  display: inline-block;
   color: #196f6a;
   text-decoration: none;
   padding: 10px;
@@ -41,8 +53,12 @@ main {
   color: #504643;
   margin-bottom: 40px;
 }
-h2 { margin-bottom: 20px; }
-p { margin-bottom: 1em; }
+h2 { 
+  margin-bottom: 20px;
+}
+p { 
+  margin-bottom: 1em; 
+}
 em {
   font-size: 1.2em;
   font-weight: bold;
