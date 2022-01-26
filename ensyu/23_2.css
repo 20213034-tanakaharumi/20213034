@@ -47,7 +47,7 @@ input[type="text"],textarea{
 }
 
 .job{
-    margin-right: 8em;
+    margin-right: .8em;
 }
 
 select{
@@ -88,6 +88,6 @@ input[type="submit"]{
         margin-left: 0;
     }
     .job{
-        margin-right: 8em;
+        margin-right: .8em;
     }
 }

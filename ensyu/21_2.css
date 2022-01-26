@@ -23,7 +23,7 @@ body{margin: 0;}
     display: block;
     line-height: 1;
     color: #fff;
-    text-emphasis: none;
+    text-decoration: none;
 }
 .globalnav1 ul{
     list-style: square;
